@@ -43,4 +43,4 @@ $ yarn dev
 
 ## Send comments or request
 
-<a href="https://twitter.com/intent/tweet?screen_name=efreyreg&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-related="efreyreg" data-show-count="false">Tweet to @efreyreg</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/efreyreg.svg?style=social&label=Follow%20%40efreyreg)](https://twitter.com/efreyreg)
