@@ -1,0 +1,9 @@
+out/
+.next
+coverage/
+flow-coverage/
+node_modules/
+.idea/
+.env
+.DS_Store
+.vscode/
