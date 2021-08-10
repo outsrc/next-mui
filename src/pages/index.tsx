@@ -21,7 +21,7 @@ const IndexPage: NextPage = () => {
 
   return (
     <Container maxWidth='lg'>
-      <SubscribeHero onSubmit={email => subscribe.post({ email })} />
+      <SubscribeHero onSubmit={email => subscribe.post({ email })} hasError={!!subscribe.error} />
 
       <SubscriptionList subscriptions={data || []} />
     </Container>

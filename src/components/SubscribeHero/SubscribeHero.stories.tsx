@@ -19,3 +19,5 @@ export default {
 export const emailInput = () => <SubscribeHero onSubmit={action('onSubmit')} />
 
 export const subscribing = () => <SubscribeHero onSubmit={action('onSubmit')} isSubscribing />
+
+export const withError = () => <SubscribeHero onSubmit={action('onSubmit')} hasError />

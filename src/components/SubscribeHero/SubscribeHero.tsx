@@ -5,9 +5,14 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline'
 export interface SubscribeHeroProps {
   onSubmit: (email: string) => void
   isSubscribing?: boolean
+  hasError?: boolean
 }
 
-export const SubscribeHero: React.FC<SubscribeHeroProps> = ({ onSubmit, isSubscribing }) => {
+export const SubscribeHero: React.FC<SubscribeHeroProps> = ({
+  onSubmit,
+  isSubscribing,
+  hasError
+}) => {
   const [email, setEmail] = React.useState('')
 
   return (
@@ -39,11 +44,12 @@ export const SubscribeHero: React.FC<SubscribeHeroProps> = ({ onSubmit, isSubscr
               <Grid item xs={12}>
                 <TextField
                   value={email}
+                  error={hasError}
                   onChange={ev => setEmail(ev.target.value)}
                   size='small'
                   fullWidth
                   variant='outlined'
-                  placeholder='Your Email'
+                  label='Your Email'
                 />
               </Grid>
               <Grid item xs={12}>
