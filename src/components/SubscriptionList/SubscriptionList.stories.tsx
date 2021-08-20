@@ -18,9 +18,9 @@ export default {
 export const list = () => (
   <SubscriptionList
     subscriptions={[
-      { email: 'johndoe@gmail.com', updated: 1628613368790 },
-      { email: 'marydoe@gmail.com', updated: 1628613368790 },
-      { email: 'carlos@yahoo.com', updated: 1628613368790 }
+      { id: '1', email: 'johndoe@gmail.com', updated: 1628613368790 },
+      { id: '2', email: 'marydoe@gmail.com', updated: 1628613368790 },
+      { id: '3', email: 'carlos@yahoo.com', updated: 1628613368790 }
     ]}
   />
 )

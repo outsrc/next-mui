@@ -13,6 +13,7 @@ import {
 import * as React from 'react'
 
 export interface EmailSubscription {
+  id: string
   email: string
   updated: number
 }
@@ -43,7 +44,7 @@ export const SubscriptionList: React.FC<SubscriptionListProps> = ({ subscription
         </TableHead>
         <TableBody>
           {subscriptions.map(row => (
-            <StyledTableRow key={row.email}>
+            <StyledTableRow key={row.id}>
               <TableCell component='th' scope='row'>
                 {row.email}
               </TableCell>
