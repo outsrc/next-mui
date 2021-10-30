@@ -15,27 +15,27 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "axios": "^0.21.1",
-    "next": "^11.1.0",
-    "next-connect": "^0.10.2",
+    "axios": "^0.24.0",
+    "next": "^12.0.1",
+    "next-connect": "^0.11.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "swr": "^0.5.6"
+    "swr": "^1.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.0",
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/react": "^6.3.7",
-    "@types/jest": "^27.0.1",
-    "@types/react": "^17.0.18",
-    "babel-loader": "^8.2.2",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.0",
-    "jest": "^27.0.6",
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.33",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.1.0",
+    "eslint-config-next": "^12.0.1",
+    "jest": "^27.3.1",
     "storybook-addon-material-ui": "^0.9.0-alpha.24",
-    "ts-jest": "^27.0.4",
-    "typescript": "^4.3.5"
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
   }
 }
